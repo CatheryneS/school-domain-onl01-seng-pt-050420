@@ -18,7 +18,7 @@ class School
   def sort 
     sort = {}
     @roster.map do |grade, student|
-      sort = grade.sort
+      sort[grade] = student.sort
     end
   end
 end
