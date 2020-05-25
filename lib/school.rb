@@ -20,6 +20,6 @@ class School
     @roster.map do |grade, student|
       sorted_roster[grade] = student.sort
     end
-    sorted_roster
+    
   end
 end
