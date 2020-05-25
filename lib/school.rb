@@ -20,5 +20,4 @@ class School
       @roster.sort
     end
   end
-  @roster
 end
