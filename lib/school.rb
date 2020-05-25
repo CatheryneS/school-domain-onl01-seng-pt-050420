@@ -17,7 +17,7 @@ class School
   
   def sort 
     @roster.each_pair do |grade, student|
-      grade.sort && student.sort
+      @roster.sort
     end
   end
 end
