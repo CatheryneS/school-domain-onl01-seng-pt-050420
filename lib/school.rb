@@ -21,4 +21,5 @@ class School
       sort[grade] = student.sort
     end
   end
+  sort
 end
